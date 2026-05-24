@@ -3,7 +3,7 @@
 ## 安装
 
 ```bash
-npx skills@latest add zjj/skills
+npx skills@latest add junjie-z666/skills
 ```
 
 ## 技能列表
