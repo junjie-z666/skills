@@ -1,7 +1,6 @@
 {
-  "name": "zjj-greeting-skills",
+  "name": "zjj-skills",
   "skills": [
-    "./skills/greeting/hello-greeting",
-    "./skills/greeting/goodbye-greeting"
+    "./skills/maestro"
   ]
 }
