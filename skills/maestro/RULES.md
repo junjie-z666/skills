@@ -2,11 +2,11 @@
 
 - **当修复bug后，发现bug仍然存在，立即尝试在对应链路添加日志，不要凭空推理。结合操作和adb logcat再具体分析原因，并修复。修复成功后，删除相关调试日志**
 
-## 规则 1：优先使用 inspect screen
+## 规则 1：不要使用take_screenshot，使用inspect_screen
 
-使用 Maestro MCP 的 `inspect_screen` 获取界面元素信息，而不是截图。
+- 使用 Maestro MCP 的 `inspect_screen` 获取界面元素信息来验证状态，而不是截图（除非inspect screen无法获取元素信息）。
 
-inspect screen 提供准确的元素 bounds 和层级结构，比截图更可靠。
+- inspect screen 提供准确的元素 bounds 和层级结构，比截图更可靠。
 
 ## 规则 2：键盘弹起后必须重新获取坐标
 
