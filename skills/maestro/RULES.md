@@ -1,5 +1,7 @@
 # Maestro 操作规则
 
+- **当修复bug后，发现bug仍然存在，立即尝试在对应链路添加日志，不要凭空推理。结合操作和adb logcat再具体分析原因，并修复。修复成功后，删除相关调试日志**
+
 ## 规则 1：优先使用 inspect screen
 
 使用 Maestro MCP 的 `inspect_screen` 获取界面元素信息，而不是截图。
