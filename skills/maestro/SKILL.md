@@ -33,5 +33,5 @@ description: 当用户说"测试一下"、"运行看看"、"验证效果"、"调
 
 ## 第三步：通过 Maestro MCP 操作手机
 
-- 结合adb logcat 和 Maestro MCP 提供的工具（如 inspect_screen、tap、input 等）直接操作手机界面，按照测试用例执行。
+- 结合 日志 和 Maestro MCP 提供的工具（如 inspect_screen、tap、input 等）直接操作手机界面，按照测试用例执行。
 - 具体工具用法参见 Maestro MCP 自身的描述。
