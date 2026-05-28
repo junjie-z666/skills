@@ -1,6 +1,6 @@
 {
   "name": "zjj-skills",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "skills": [
     "./skills/maestro"
   ]
